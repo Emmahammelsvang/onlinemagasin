@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    font-family: "futura-pt", sans-serif;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    line-height: 38px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+h1{
+    font-size: 40pt;
+    padding-top: 1cm;
+}
+
+h4{
+    font-size: 7pt;
+    text-align: left;
+}
+
+h5{
+    font-size: 10pt;
+}
+
+h6{
+    padding: 0.5cm;
+    font-size: 10pt;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
+
+header img{
+    max-height: 130px;
+    max-width: 130px;
+    padding-left: 1cm;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin-right: 200px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{color: #ffa938;
+}
+
+button{
+    background-color: #17794A;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 300;
+    font-weight: bolder;
+}
+
+article button{
+    background-color: #ffa938;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 300;
+    font-weight: bolder;
+}
+
+#forsidemain{
+    background-image: url(billeder/baggrund.png);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 220px;
+}
+
+#forsidemain p{
+    padding-top: 1cm;
+}
+
+.sortlinje{
+    margin: auto;
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.kort{
+    display: flex;
+    justify-content: space-around;
+    padding: 2cm;
+    flex-wrap: wrap;
+}
+
+.kort section{
+    width: 350px;
+    height: 500px;
+    font-size: small;
+}
+
+div h3{
+    font-size: 16pt;
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+div h2{
+    font-weight: lighter;
+    line-height: 8mm;
+    text-align: left;
+}
+
+article h1{
+    font-size: 40pt;
+}
+
+article h2{
+    font-size: 14pt;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+article h5{
+    text-align: center;
+}
+
+article p{
+    text-align: left;
+    font-size: 13pt;
+    margin: 1cm;
+    line-height: 0.8cm;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+#tokort{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+ #tokort section{
+    height: 450px;
+}
+
+ul{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+li{
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #17794A;
+    color: white;
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;    
+    padding-left: 3cm;
+    padding-right: 3cm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.fa{
+    font-size: 20pt;
+    position: absolute;
+}
+
+.fa-facebook{
+    color: white;
+    margin-top: 60px;
+    margin-left: 550px;
+}
+
+.fa-instagram{
+    color: white;
+    margin-top: 60px;
+    margin-left: 580px;
+}
+
+
+
+
+
+
+
+
